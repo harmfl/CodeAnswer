@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Python 基础（一）：入门必备知识",
+        "description": "Python 入门必备知识，你都掌握了吗？",
+        "url": "https://blog.csdn.net/ityard/article/details/102807071?ops_request_misc=%257B%2522request%255Fid%2522%253A%25220f0ea1c95f03da8c6f1127a9ddcb8993%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=0f0ea1c95f03da8c6f1127a9ddcb8993&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-102807071-null-null.142^v100^pc_search_result_base1&utm_term=python"
+    },
+    {
+        "title": "python从入门到精通——完整教程【转载】",
+        "description": "文章目录 一、pycharm下载安装 二、python下载安装 三、pycharm上配置python 四、配置镜像源让你下载嗖嗖的快 4.1）pycharm内部配置 4.2）手动添加镜像源 4.3）永久配置镜像源 五、插件安装（比如汉化？） 5.1）自动...",
+        "url": "https://blog.csdn.net/m0_58523831/article/details/120851261?ops_request_misc=%257B%2522request%255Fid%2522%253A%25220f0ea1c95f03da8c6f1127a9ddcb8993%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=0f0ea1c95f03da8c6f1127a9ddcb8993&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-120851261-null-null.142^v100^pc_search_result_base1&utm_term=python"
+    },
+    {
+        "title": "python",
+        "description": "python 2。1 编程 圣经\n从入门到精通",
+        "url": "https://download.csdn.net/download/yeahguyewen/256802?ops_request_misc=%257B%2522request%255Fid%2522%253A%25227d2c136fedb4e2c78377d00286d9f614%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fcommercial.%2522%257D&request_id=7d2c136fedb4e2c78377d00286d9f614&biz_id=1&utm_medium=distribute.pc_search_result.none-task-download-2~all~insert_commercial~default-3-256802-null-null.142^v100^pc_search_result_base1&utm_term=python"
+    },
+    {
+        "title": "Python 语法及入门 （超全超详细） 专为Python零基础 一篇博客让你完全掌握Python语法",
+        "description": "Python 语法及入门 （超全超详细） 专为Python零基础 一篇博客让你完全掌握Python语法",
+        "url": "https://blog.csdn.net/dream_ready/article/details/130138427?ops_request_misc=%257B%2522request%255Fid%2522%253A%25220f0ea1c95f03da8c6f1127a9ddcb8993%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=0f0ea1c95f03da8c6f1127a9ddcb8993&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-4-130138427-null-null.142^v100^pc_search_result_base1&utm_term=python"
+    },
+    {
+        "title": "python实现樱花",
+        "description": "python实现樱花 代码如下： from turtle import * from random import * from math import * def tree(n, l):  pd () # 下笔  # 阴影效果  t = cos ( radians ( heading () + 45 ) ) / 8 + 0.25  pencolor ( t, t, t...",
+        "url": "https://blog.csdn.net/weixin_57038822/article/details/123661469?ops_request_misc=%257B%2522request%255Fid%2522%253A%25220f0ea1c95f03da8c6f1127a9ddcb8993%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=0f0ea1c95f03da8c6f1127a9ddcb8993&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-5-123661469-null-null.142^v100^pc_search_result_base1&utm_term=python"
+    }
+]

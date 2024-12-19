@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Python：Python学习总结",
+        "description": "Javascript和Php是弱类型的，Python和Ruby是强类型的。弱类型允许不安全的类型转换，强类型则不允许。 1 #1 + “1” 这行代码在Python中会报错。 2 print...的一门语言）。 Python应该是写起来最舒服的动态语言了，一下是一些读书笔记，最后会介绍一下高级的用法：Mixin、Open Class、Meta Programming和AOP。",
+        "url": "https://www.cnblogs.com/happyframework/p/3255962.html"
+    },
+    {
+        "title": "Python绘图",
+        "description": "/etc/bin/python #coding=utf-8 import numpy as np import matplotlib as mpl import matplotlib.../etc/bin/python #coding=utf-8 import numpy as np import matplotlib as mpl import matplotlib",
+        "url": "https://www.cnblogs.com/chaoren399/p/5792168.html"
+    },
+    {
+        "title": "Python Spider",
+        "description": "虫，实现语言使用Python。 二、Python如何访问互联网 想要写网络爬虫，第一步是访问互联网，Python如何访问互联网呢？ 在Python中...度和谷歌中输入‘Python'，会有大量和Python相关的网页被检索出来，百度和谷歌是如何从海量的网页中检索出你想要的资源，他们靠的就是派出大量蜘蛛去网页上爬",
+        "url": "https://www.cnblogs.com/wangyaoguo/p/5769944.html"
+    },
+    {
+        "title": "Python简史",
+        "description": "间用于hack Python (也包括工作时间，因为他们将Python用于工作)。随后，Python拓展到CWI之外。Python将许多机器层面上的细节隐藏，交...硬件性能不是瓶颈，Python又容易使用，所以许多人开始转向Python。Guido维护了一个maillist，Python用户就通过邮件进行交流。Python用",
+        "url": "https://www.cnblogs.com/vamei/archive/2013/02/06/2892628.html"
+    },
+    {
+        "title": "python super()",
+        "description": "的。 因此，自Python 2.2开始，Python添加了一个关键字super，来解决这个问题。下面是Python 2.3的官方文档说明： super(type[...一、问题的发现与提出 在Python类的方法（method）中，要调用父类的某个方法，在Python 2.2以前，通常的写法如代码段1： 代码段1： class A:",
+        "url": "https://www.cnblogs.com/lovemo1314/archive/2011/05/03/2035005.html"
+    }
+]

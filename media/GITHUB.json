@@ -1,0 +1,27 @@
+[
+    {
+        "title": "TheAlgorithms/Python",
+        "description": "All Algorithms implemented in Python",
+        "url": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+        "title": "geekcomputers/Python",
+        "description": "My Python Examples",
+        "url": "https://github.com/geekcomputers/Python"
+    },
+    {
+        "title": "walter201230/Python",
+        "description": "最良心的 Python 教程：",
+        "url": "https://github.com/walter201230/Python"
+    },
+    {
+        "title": "injetlee/Python",
+        "description": "Python脚本。模拟登录知乎， 爬虫，操作excel，微信公众号，远程开机",
+        "url": "https://github.com/injetlee/Python"
+    },
+    {
+        "title": "kubernetes-client/python",
+        "description": "Official Python client library for kubernetes",
+        "url": "https://github.com/kubernetes-client/python"
+    }
+]

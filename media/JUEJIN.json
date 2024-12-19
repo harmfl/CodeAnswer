@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Python 快速入门篇",
+        "description": "2023年是AI的元年，AI的爆火不仅推动了科技领域的进步，更让 Python 语言成为了这一变革中的关键角色。 Python 语言简单易懂，语法清晰明，懂一点英语的都能学得会。",
+        "url": "https://juejin.cn/post/7330879790155448361?searchId=20241218165919F890AB95398FA559D906"
+    },
+    {
+        "title": "Python 入门指南",
+        "description": "Python 入门指南 欢迎进入 Python 领域。作为程序员，我们总是在寻找能提高效率、编写优雅的代码的工具，而 Python 正是其中之一。它的语法简洁，库资源丰富，不仅适合初学者快速上手，也为",
+        "url": "https://juejin.cn/post/7292014439384793098?searchId=20241218165919F890AB95398FA559D906"
+    },
+    {
+        "title": "Python爬虫教程:入门爬取网页数据",
+        "description": "本文简单介绍了爬虫的基础知识以及需要用的库和方法，并做了非常简单的示例。总地来说，爬虫就是模拟网络请求，并解析、提取出我们想要的数据。爬虫可以帮助我们更快地获取网站上的数据，为工作和生活带来诸多便利",
+        "url": "https://juejin.cn/post/7261628991055151162?searchId=20241218165919F890AB95398FA559D906"
+    },
+    {
+        "title": "图解python | 字典",
+        "description": "在 Python 中，字典（Dictionary）是另一种可变容器模型，且可存储任意类型对象。作为Python唯一的标准mapping type，字典支持增、删、查、整体更新等操作。",
+        "url": "https://juejin.cn/post/7067755595549376548?searchId=20241218165919F890AB95398FA559D906"
+    },
+    {
+        "title": "图解python | 列表",
+        "description": "在Python中，列表（List）是最常用的Python数据类型之一，可以作为一个方括号内的逗号分隔值出现。本文详细讲解列表的创建、访问、更新、删除、截取和列表函数等知识。",
+        "url": "https://juejin.cn/post/7067585859272310791?searchId=20241218165919F890AB95398FA559D906"
+    }
+]

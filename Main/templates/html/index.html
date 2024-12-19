@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+<!-- Head -->
+<head>
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Page Meta Tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'arc5.ico' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'arc5.ico' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'arc5.ico' %}">
+    <link rel="mask-icon" href="{% static 'assets/images/favicon/safari-pinned-tab.svg' %}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/libs.bundle.css' %}" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/theme.bundle.css' %}" />
+
+    <!-- Fix for custom scrollbar if JS is disabled-->
+    <noscript>
+        <style>
+          /**
+          * Reinstate scrolling for non-JS clients
+          */
+          .simplebar-content-wrapper {
+            overflow: auto;
+          }
+        </style>
+    </noscript>
+
+    <!-- Page Title -->
+    <title>主页 - CodeAnswer.com</title>
+    
+</head>
+<body class="">
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light border-0 py-0 fixed-top bg-dark-800">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center flex-grow-1 navbar-actions">
+    
+          <!-- Menu Toggle-->
+          <div class="menu-toggle cursor-pointer me-4 text-primary-hover transition-color disable-child-pointer">
+            <i class="ri-menu-fold-line ri-lg fold align-middle" data-bs-toggle="tooltip" data-bs-placement="right"
+              title="Close menu"></i>
+            <i class="ri-menu-unfold-line ri-lg unfold align-middle" data-bs-toggle="tooltip" data-bs-placement="right"
+              title="Open Menu"></i>
+          </div>
+          <!-- / Menu Toggle-->
+    
+          <!-- Navbar Actions-->
+          <div class="d-flex align-items-center">
+    
+            <!-- / Search-->
+    
+            <!-- Region -->
+            <div class="dropdown me-2">
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="regionDropdown">
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">United Kingdom <span class="text-muted ms-5"><span class="flag-icon flag-icon-gb"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">United States<span class="text-muted ms-5"><span class="flag-icon flag-icon-us"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Australia<span class="text-muted ms-5"><span class="flag-icon flag-icon-au"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Belgium<span class="text-muted ms-5"><span class="flag-icon flag-icon-be"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Canada<span class="text-muted ms-5"><span class="flag-icon flag-icon-ca"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">China <span class="text-muted ms-5"><span class="flag-icon flag-icon-cn"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Denmark <span class="text-muted ms-5"><span class="flag-icon flag-icon-dk"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">France<span class="text-muted ms-5"><span class="flag-icon flag-icon-fr"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Netherlands<span class="text-muted ms-5"><span class="flag-icon flag-icon-nl"></span></span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Russia<span class="text-muted ms-5"><span class="flag-icon flag-icon-ru"></span></span></a></li>
+              </ul>
+            </div>
+            <!-- /Region -->
+    
+            <!-- Language-->
+            <div class="dropdown me-2">
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="language">
+                <li>
+                  <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">English 
+                    <span class="text-muted ms-5">EN</span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">French<span class="text-muted ms-5">FR</span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Espanol<span class="text-muted ms-5">ES</span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Turkish<span class="text-muted ms-5">TR</span></a></li>
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Russian<span class="text-muted ms-5">RU</span></a></li>
+              </ul>
+            </div>
+    
+          </div>
+          <!-- / Navbar Actions-->
+        
+        </div>
+      </div>
+    </nav>    <!-- / Navbar-->
+
+    <!-- Page Content -->
+    <main id="main">
+
+        <!-- Content-->
+        <section class="container-fluid">
+
+            <!-- Breadcrumbs-->
+            <nav class="mb-4 pb-2 border-bottom" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href=""><i class="ri-home-line align-bottom me-1"></i>主页</a></li>
+                </ol>
+            </nav>
+
+            <!-- Top Row Widgets-->
+            <div class="row g-4 mb-4">
+
+                <!-- Schedule Widget-->
+                <div class="card mb-4">
+                    <div class="card-header justify-content-between align-items-center d-flex">
+                        <h6 class="card-title m-0">让它开始吧！</h6>
+                    </div>
+                    <div class="card-body">
+                        <form method="POST" action="/spider_post">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label class="form-label">输入你的问题或要寻找的信息</label>
+                                <input type="text" class="form-control" name="query" placeholder="请输入问题或信息">
+                            </div>
+                            <button type="submit" class="btn btn-primary">开始</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header justify-content-between align-items-center d-flex border-0 pb-0">
+                                <h6 class="card-title">CSDN</h6>
+                            </div>
+                            <div class="card-body">
+                    
+                                <!-- Tab Content-->
+                                <div class="tab-content" id="scheduleTabContent">
+                    
+                                    <!-- Tab Today Content-->
+                                    <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today-tab">
+                                        <ul class="list-group list-group-flush" id="csdn_data">
+                                            <!-- 这里的内容会被 WebSocket 更新 -->
+                                        </ul>
+                                        {% if CSDN_data %}
+                                            <!-- 如果后端有数据，则渲染静态数据 -->
+                                            <ul class="list-group">
+                                                {% for data in CSDN_data %}
+                                                    <li class="list-group-item d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <!-- 标题 -->
+                                                            <a href="{{ data.url }}" style="text-decoration: none;" target="_blank">
+                                                                <p class="fw-bolder mb-2 text-white" style="padding-left: 10px;">
+                                                                    {{ data.title }}
+                                                                </p>
+                                                            </a>
+                                                            <!-- 简介 -->
+                                                            <span class="small d-flex align-items-center" style="padding-left: 10px;">
+                                                                {{ data.description }}
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header justify-content-between align-items-center d-flex border-0 pb-0">
+                                <h6 class="card-title">GITHUB</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <!-- Tab Content-->
+                                <div class="tab-content" id="scheduleTabContent">
+
+                                    <!-- Tab Today Content-->
+                                    <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today-tab">
+                                        <ul class="list-group list-group-flush" id="csdn_data">
+                                            <!-- 这里的内容会被 WebSocket 更新 -->
+                                        </ul>
+                                        {% if GITHUB_data %}
+                                            <!-- 如果后端有数据，则渲染静态数据 -->
+                                            <ul class="list-group">
+                                                {% for data in GITHUB_data %}
+                                                    <li class="list-group-item d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <!-- 标题 -->
+                                                            <a href="{{ data.url }}" style="text-decoration: none;" target="_blank">
+                                                                <p class="fw-bolder mb-2 text-white" style="padding-left: 10px;">
+                                                                    {{ data.title }}
+                                                                </p>
+                                                            </a>
+                                                            <!-- 简介 -->
+                                                            <span class="small d-flex align-items-center" style="padding-left: 10px;">
+                                                                {{ data.description }}
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header justify-content-between align-items-center d-flex border-0 pb-0">
+                                <h6 class="card-title">掘金</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <!-- Tab Content-->
+                                <div class="tab-content" id="scheduleTabContent">
+
+                                    <!-- Tab Today Content-->
+                                    <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today-tab">
+                                        <ul class="list-group list-group-flush" id="csdn_data">
+                                            <!-- 这里的内容会被 WebSocket 更新 -->
+                                        </ul>
+                                        {% if JUEJIN_data %}
+                                            <!-- 如果后端有数据，则渲染静态数据 -->
+                                            <ul class="list-group">
+                                                {% for data in JUEJIN_data %}
+                                                    <li class="list-group-item d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <!-- 标题 -->
+                                                            <a href="{{ data.url }}" style="text-decoration: none;" target="_blank">
+                                                                <p class="fw-bolder mb-2 text-white" style="padding-left: 10px;">
+                                                                    {{ data.title }}
+                                                                </p>
+                                                            </a>
+                                                            <!-- 简介 -->
+                                                            <span class="small d-flex align-items-center" style="padding-left: 10px;">
+                                                                {{ data.description }}
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                        <div class="card h-100">
+                            <div class="card-header justify-content-between align-items-center d-flex border-0 pb-0">
+                                <h6 class="card-title">博客园</h6>
+                            </div>
+                            <div class="card-body">
+
+                                <!-- Tab Content-->
+                                <div class="tab-content" id="scheduleTabContent">
+
+                                    <!-- Tab Today Content-->
+                                    <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today-tab">
+                                        <ul class="list-group list-group-flush" id="csdn_data">
+                                            <!-- 这里的内容会被 WebSocket 更新 -->
+                                        </ul>
+                                        {% if CNBLOGS_data %}
+                                            <!-- 如果后端有数据，则渲染静态数据 -->
+                                            <ul class="list-group">
+                                                {% for data in CNBLOGS_data %}
+                                                    <li class="list-group-item d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <!-- 标题 -->
+                                                            <a href="{{ data.url }}" style="text-decoration: none;" target="_blank">
+                                                                <p class="fw-bolder mb-2 text-white" style="padding-left: 10px;">
+                                                                    {{ data.title }}
+                                                                </p>
+                                                            </a>
+                                                            <!-- 简介 -->
+                                                            <span class="small d-flex align-items-center" style="padding-left: 10px;">
+                                                                {{ data.description }}
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Row Widgets-->
+
+            <!-- Footer -->
+            <footer class="  footer">
+                <p class="small text-muted m-0">G的最新力作</p>
+                <p class="small text-muted m-0">Github:<a href="https://github.com/harmfl/AI_draw/">harmf</a></p>
+            </footer>
+            <!-- / Sidebar Menu Overlay-->
+            
+            <!-- Modal Imports-->
+            <!-- Place your modal imports here-->
+            
+            <!-- Default Example Modal Import-->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Here goes modal body content
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- Offcanvas Imports-->
+            <!-- Place your offcanvas imports here-->
+            
+            <!-- Default Example Offcanvas Import-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                  </div>
+                  <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            <!-- Navbar Notifications offcanvas-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNotifications"
+              aria-labelledby="offcanvasNotificationsLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNotificationsLabel">Notifications</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+            
+                <!-- Notification-->
+                <div class="d-flex justify-content-start align-items-start p-3 rounded bg-light mb-3">
+                  <div class="position-relative mt-1 ">
+                    <picture class="avatar avatar-sm">
+                      <img src="{% static 'assets/images/profile-small-2.jpeg' %}"
+                        alt="HTML Bootstrap Admin Template by Pixel Rocket">
+                    </picture>
+                    <span
+                    class="dot bg-success avatar-dot border-light dot-sm"></span>
+                  </div>
+                  <div class="ms-4">
+                    <p class="fw-bolder mb-1">John Jackson</p>
+                    <p class="text-muted small mb-0">Just sent over regional sales. If you can let me know by the end...</p>
+                    <span class="fs-xs fw-bolder text-muted text-uppercase">5 mins ago</span>
+                  </div>
+                </div>
+                <!-- / Notification-->
+            
+                <!-- Notification-->
+                <div class="d-flex justify-content-start align-items-start p-3 rounded bg-light mb-3">
+                  <div class="position-relative mt-1 ">
+                    <picture class="avatar avatar-sm">
+                      <img src="{% static 'assets/images/profile-small-3.jpeg' %}"
+                        alt="HTML Bootstrap Admin Template by Pixel Rocket">
+                    </picture>
+                    <span
+                    class="dot bg-success avatar-dot border-light dot-sm"></span>
+                  </div>
+                  <div class="ms-4">
+                    <p class="fw-bolder mb-1">Peter Smith</p>
+                    <p class="text-muted small mb-0">Hi Rob, can we setup a meeting for tomorrow around 2pm...</p>
+                    <span class="fs-xs fw-bolder text-muted text-uppercase">30 mins ago</span>
+                  </div>
+                </div>
+            
+                <!-- Notification-->
+                <div class="d-flex justify-content-start align-items-start p-3 rounded bg-light mb-3">
+                  <div class="position-relative mt-1 ">
+                    <picture class="avatar avatar-sm">
+                      <img src="{% static 'assets/images/profile-small-4.jpeg' %}"
+                        alt="HTML Bootstrap Admin Template by Pixel Rocket">
+                    </picture>
+                    <span
+                    class="dot bg-danger avatar-dot border-light dot-sm"></span>
+                  </div>
+                  <div class="ms-4">
+                    <p class="fw-bolder mb-1">Helen Lewis</p>
+                    <p class="text-muted small mb-0">Need to arrange for this year's Office lisences. Have to add two team licenses...</p>
+                    <span class="fs-xs fw-bolder text-muted text-uppercase">43 mins ago</span>
+                  </div>
+                </div>
+{#                <!-- / Notification-->#}
+            
+                <!-- View all Btn-->
+                <a href="#" class="btn btn-outline-secondary w-100 mt-4" role="button">View all notifications</a>
+                <!-- / View all btn-->
+            
+              </div>
+            </div>            <!-- / Footer-->
+
+        </section>
+        <!-- / Content-->
+
+    </main>
+    <!-- /Page Content -->
+
+    <!-- Page Aside-->
+    <aside class="aside bg-dark-700">
+    
+        <div class="simplebar-wrapper">
+            <div data-pixr-simplebar>
+                <div class="pb-6 pb-sm-0 position-relative">
+    
+                    <!-- Mobile close btn-->
+                    <div class="cursor-pointer close-menu me-4 text-primary-hover transition-color disable-child-pointer position-absolute end-0 top-0 mt-3 pt-1 d-xl-none">
+                        <i class="ri-close-circle-line ri-lg align-middle me-n2"></i>
+                    </div>
+                    <!-- / Mobile close btn-->
+    
+                    <!-- Mobile Logo-->
+                    <div class="d-flex justify-content-center align-items-center py-3">
+                        <a class="m-0" href="./index.html">
+                            <div class="d-flex align-items-center justify-content-center">
+{#                                <svg class="f-w-6 me-2 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 398.39 353.81"><polygon points="228.38 33.94 0 262.32 0 0 119.61 0 119.61 43.01 101.9 60.73 86.02 76.61 86.02 33.6 33.6 33.6 33.6 181.2 214.46 0.34 390.66 0.34 242.09 148.91 218.73 124.76 309.55 33.94 228.38 33.94" fill="currentColor"/><polygon points="398.39 353.81 217.51 353.81 131.04 261.75 45.09 353.81 0 353.81 0 353.49 131.26 212.91 232.05 320.21 317.27 320.21 170.28 173.21 194.19 149.29 194.19 149.55 254.9 210.51 254.97 210.39 398.39 353.81" fill="currentColor"/></svg>#}
+                                <span class="fw-bold fs-3 text-white">CodeAnswer</span>
+                            </div>                    </a>
+                    </div>
+                    <!-- / Mobile Logo-->
+    
+                    <!-- User Details-->
+                    <div class="border-bottom pt-3 pb-5 mb-6 d-flex flex-column align-items-center">
+                        <div class="position-relative">
+                            <picture class="avatar avatar-profile">
+                                <img class="avatar-profile-img" src="{% static 'arc5.ico' %}"
+                                  alt="HTML Bootstrap Admin Template by Pixel Rocket">
+                            </picture>
+                            <span class="dot bg-success avatar-dot"></span>
+                        </div>
+                        <p class="mb-0 mt-3 text-white">{{ username }}</p>
+{#                        <small>robert.jones@outlook.com</small>#}
+{#                        <div class="d-flex flex-wrap mt-2 justify-content-between align-items-center">#}
+{#                            <div class="py-2 f-h-9 px-3 d-flex justify-content-center align-items-center bg-dark-opacity rounded p-2 small fw-bolder me-1">#}
+{#                                <i class="ri-map-pin-line me-2"></i> London, UK#}
+{#                            </div>#}
+    
+                            <!-- User profile dropdown-->
+                            <div class="dropdown m-0">
+                                <button class="border-0 rounded px-2 f-h-9 bg-dark-opacity p-0 text-body" type="button" id="profileDropdown"
+                                  data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="ri-settings-2-line"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                                  <li><a class="dropdown-item d-flex align-items-center" href="#"><i class="ri-user-line me-2"></i> Edit
+                                      profile</a></li>
+                                  <li><a class="dropdown-item d-flex align-items-center" href="#"><i class="ri-settings-2-line me-2"></i> Edit
+                                      settings</a></li>
+                                  <li><a class="dropdown-item d-flex align-items-center" href="#"><i class="ri-mail-open-line me-2"></i> View
+                                      messages</a></li>
+                                  <li>
+                                    <hr class="dropdown-divider">
+                                  </li>
+                                  <li><a class="dropdown-item text-danger d-flex align-items-center" href="#"><i
+                                        class="ri-lock-line me-2"></i> Logout</a></li>
+                                </ul>
+                              </div>
+                            <!-- / User profile dropdown-->
+                        </div>
+                    </div>
+                    <!-- User Details-->
+    
+                    <ul class="list-unstyled mb-6 aside-menu">
+    
+{#                        <!-- Dashboard Menu Section-->#}
+                        <li class="menu-section">Menu</li>
+                        <li class="menu-item"><a class="d-flex align-items-center menu-link" href="/Main/"><i
+                                    class="ri-home-4-line me-3"></i> <span>主页</span></a></li>
+{#                        <!-- / Dashboard Menu Section-->#}
+    
+                        <!-- UI Kit Menu Section-->
+                        <li class="menu-section mt-5">设置</li>
+                        <li class="menu-item"><a class="d-flex align-items-center menu-link" href="/Main/sp_setting"><i
+                                    class="ri-shape-fill me-3"></i> <span>设置</span></a></li>
+                        <li class="menu-section mt-5">账号</li>
+                        <li class="menu-item"><a class="d-flex align-items-center menu-link" href="/login/"><i
+                                    class="ri-stack-line me-3"></i> <span>登入新账号</span></a></li>
+                        <li class="menu-item"><a class="d-flex align-items-center menu-link" href="/login/register/"><i
+                                    class="ri-stack-line me-3"></i> <span>注册新账号</span></a></li>
+{#                        </li>#}
+                        <!-- / Pages Menu Section-->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </aside>    <!-- / Page Aside-->
+
+    <!-- Theme JS -->
+    <!-- Vendor JS -->
+    <script src="{% static 'assets/js/vendor.bundle.js' %}"></script>
+    
+    <!-- Theme JS -->
+    <script src="{% static 'assets/js/theme.bundle.js' %}"></script>
+</body>
+
+</html>
